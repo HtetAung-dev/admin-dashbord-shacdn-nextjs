@@ -120,7 +120,7 @@ export function DataTable<TData, TValue>({
                     </DropdownMenuContent>
                 </DropdownMenu>
             </div>
-            <div className="rounded-md border card bg-sky-100  cursor-pointer">
+            <div className="rounded-md border card bg-sky-100 cursor-pointer">
                 <Table>
                     <TableHeader className="w-20">
                         {table.getHeaderGroups().map((headerGroup) => (
